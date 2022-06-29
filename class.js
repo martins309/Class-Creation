@@ -27,12 +27,40 @@ class Car {
     
 }
 
+
+class DriftCar extends Car {
+    drift(){
+        console.log('i just went sideways tee hee')
+        return this
+    }
+    counterSteer() {
+        console.log('im sliding this hoe ya digg')
+        return this
+    }
+    donut(){
+        console.log('i thinkk im going to be sick')
+        return this
+    }
+    burnOut(){
+        console.log('my insurance will pay for this right?')
+    }
+}
+
+
+
 const carOne = new Car('red', 'enzo', 'ferrari')
 const carTwo = new Car('green', 'murcielago', 'lamborghini')
 const carThree = new Car('pink', '911gt', 'porsche')
 
+const driftOne = new DriftCar('black', '350z', 'nissan')
+
 
 console.log(carTwo)
+console.log(driftOne)
 
 
 carOne.carStart().accelerate().carGoFaster()
+
+carTwo.carStart().carGoFaster()
+
+driftOne.carStart().carGoFaster().drift().counterSteer()
