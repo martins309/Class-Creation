@@ -12,6 +12,11 @@ class Car {
         console.log("the car is moving my dude")
         return this
     }
+
+    carGoFaster() {
+        console.log("ahhhhhhhhhHHHAHAHAHAH, slow the FUCK down!!")
+        return this
+    }
     carStop(){
         console.log("the car is no moving my dude")
         return this
@@ -27,6 +32,7 @@ const carTwo = new Car('green', 'murcielago', 'lamborghini')
 const carThree = new Car('pink', '911gt', 'porsche')
 
 
-console.log(carOne)
+console.log(carTwo)
 
 
+carOne.carStart().accelerate().carGoFaster()
