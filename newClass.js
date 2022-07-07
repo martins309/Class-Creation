@@ -30,3 +30,27 @@ class Truck {
 }
 
 
+class monsterTruck extends Truck {
+    burnOut(){
+        console.log('the truck just did a burnout')
+        return this
+    }
+    accelerate(){
+        console.log('this sob just took off')
+        return this
+    }
+
+    airTime(){
+        console.log('this bih just flew my guy')
+        return this
+    }
+
+    breakSlam(){
+        console.log('slammed on the breaks and broke my neck')
+        return this
+    }
+}
+
+
+
+
