@@ -21,6 +21,7 @@ class Truck {
 
     honkHorn(){
         console.log('this truck just blew its loud ass horn')
+        return this
     }
 
     isOff(){
@@ -35,6 +36,7 @@ class monsterTruck extends Truck {
         console.log('the truck just did a burnout')
         return this
     }
+
     accelerate(){
         console.log('this sob just took off')
         return this
@@ -62,5 +64,5 @@ const satan = new monsterTruck('red', 'huuuggee', '4')
 // truckOne.isOn().lowerGears()
 // truckTwo.isOn().honkHorn()
 
-satan.isOn().honkHorn().burnOut().accelerate().breakSlam()
+satan.isOn().burnOut().accelerate().airTime().breakSlam()
 
