@@ -34,7 +34,7 @@ class DriftCar extends Car {
         return this
     }
     counterSteer() {
-        console.log('im sliding this hoe ya digg')
+        console.log('im sliding this hoe ya digg')``
         return this
     }
     donut(){
