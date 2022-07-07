@@ -54,3 +54,13 @@ class monsterTruck extends Truck {
 
 
 
+const truckOne = new Truck('black', 'smol', '12')
+const truckTwo = new Truck('blue', 'bigger', '18')
+
+const satan = new monsterTruck('red', 'huuuggee', '4')
+
+// truckOne.isOn().lowerGears()
+// truckTwo.isOn().honkHorn()
+
+satan.isOn().honkHorn().burnOut().accelerate().breakSlam()
+
